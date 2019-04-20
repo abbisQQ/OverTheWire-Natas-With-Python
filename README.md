@@ -1,6 +1,6 @@
 # OverTheWire-Natas-With-Python
 
-#http://overthewire.org/wargames/natas/
+http://overthewire.org/wargames/natas/
 
 Natas is a serverside web-security challenge series which i will solve using python.
 Each script will print the password to the next level when you run it.
